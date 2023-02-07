@@ -1,5 +1,6 @@
 import { useContext, useState } from "react";
 import { GlobalContext } from "../utils/context";
+import { motion } from "framer-motion";
 
 function Header() {
   const { isMenuVisible, setIsMenuVisible } = useContext(GlobalContext);
