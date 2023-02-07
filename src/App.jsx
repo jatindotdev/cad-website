@@ -1,13 +1,23 @@
-import Button from "../components/Button";
+import { Route, Routes } from "react-router-dom";
+import About from "./routes/about";
+import Home from "./routes/Home";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import { GlobalContext } from "../utils/context";
+import { useState } from "react";
 
 function App() {
+  const [isMenuVisible, setIsMenuVisible] = useState(false);
+
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">
-        React + Vite + Tailwindcss
-      </h1>
-      <Button>This is a Button</Button>
-    </div>
+    <GlobalContext.Provider value={{ isMenuVisible, setIsMenuVisible }}>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+      <Footer />
+    </GlobalContext.Provider>
   );
 }
 
