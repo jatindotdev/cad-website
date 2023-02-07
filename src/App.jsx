@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import About from "./routes/about";
+import About from "./routes/About";
 import Home from "./routes/Home";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
