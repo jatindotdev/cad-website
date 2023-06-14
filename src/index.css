@@ -5,6 +5,20 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: Power;
+  src: url("../assets/fonts/Powerr-Regular.2e26b888.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Swansea;
+  src: url("../assets/fonts/Swansea.4b3ee543.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

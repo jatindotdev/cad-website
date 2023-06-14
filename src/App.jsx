@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { GlobalContext } from "../utils/context";
 import { useState } from "react";
+import Menu from "../components/Menu";
 
 function App() {
   const [isMenuVisible, setIsMenuVisible] = useState(false);
@@ -12,6 +13,7 @@ function App() {
   return (
     <GlobalContext.Provider value={{ isMenuVisible, setIsMenuVisible }}>
       <Header />
+      <Menu />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
