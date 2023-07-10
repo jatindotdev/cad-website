@@ -1,0 +1,28 @@
+.bgimg {
+  background-image: url(/footerimg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.grad {
+  background: linear-gradient(0deg, transparent, #0d0221 20%);
+}
+
+@media (max-width: 640px) {
+  .bgimg {
+    background-image: url(/footerimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180vh;
+  }
+}
+
+@media (max-height: 690px) and (min-width: 640px) {
+  .bgimg {
+    background-image: url(/footerimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 124vh;
+  }
+}
