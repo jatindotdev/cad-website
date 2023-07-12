@@ -1,0 +1,23 @@
+<svg width="1148" height="564" viewBox="0 0 1148 564" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect x="186.597" y="22.4478" width="12.6269" height="39.2836" fill="#724CD1"/>
+<rect x="186.597" y="35.0746" width="12.6269" height="39.2836" transform="rotate(-90 186.597 35.0746)" fill="#724CD1"/>
+<rect x="1147.64" y="409.672" width="17.5874" height="54.7164" transform="rotate(180 1147.64 409.672)" fill="#301D61"/>
+<rect x="1147.64" y="392.084" width="17.5874" height="54.7164" transform="rotate(90 1147.64 392.084)" fill="#301D61"/>
+<rect x="319.881" y="99.612" width="16.8358" height="19.6418" transform="rotate(-90 319.881 99.612)" fill="#252424"/>
+<rect x="249.731" y="448.955" width="16.8358" height="42.0896" transform="rotate(-90 249.731 448.955)" fill="#301D61"/>
+<rect x="945.612" y="147.313" width="16.8358" height="19.6418" transform="rotate(-90 945.612 147.313)" fill="#8758FF"/>
+<rect x="820.746" y="99.612" width="16.8358" height="43.4925" transform="rotate(-90 820.746 99.612)" fill="#252424"/>
+<rect y="564" width="16.8358" height="82.7761" transform="rotate(-90 0 564)" fill="#42248F"/>
+<rect x="798.697" y="431.693" width="16.8358" height="43.4925" transform="rotate(-90 798.697 431.693)" fill="#8758FF"/>
+<rect x="75.7611" y="246.925" width="12.6269" height="39.2836" transform="rotate(-90 75.7611 246.925)" fill="#252424"/>
+<rect x="82.7761" y="260.955" width="12.6269" height="39.2836" transform="rotate(180 82.7761 260.955)" fill="#252424"/>
+<rect x="901.017" y="4.60982" width="10.3721" height="32.2687" fill="#241B39"/>
+<rect x="889.493" y="10.372" width="10.3721" height="32.2687" transform="rotate(-90 889.493 10.372)" fill="#241B39"/>
+<rect x="95.4101" y="345" width="72.1975" height="72.1975" transform="rotate(32.1417 95.4101 345)" fill="url(#pattern0)"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_9_253" transform="scale(0.0078125)"/>
+</pattern>
+<image id="image0_9_253" width="128" height="128" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACAAgMAAAC+UIlYAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAJUExURQAAAGQw7QAAAJUyhe8AAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAAAYAAAAGAA8GtCzwAAAAd0SU1FB+cCBBUTB9dR8AcAAACkSURBVFjD7dZLDsAgCATQueTc/ypNa1FrqK5gXMjCxPAWRPEDnPCClAOuRDy481MRD0p+IjIA9WCH2GEdNgHvoARt1AA2QBEg20K5daaB0jAiwC+gCviTTAA7vXAbNwNYdeymGgAlsOVa/UASABYiHLznlkLA+tP6qTQaPMVZlk7HxAO2p90usmxQL1FsAOxdG7crAaAvEE4+GnDYp77eLHACuADHhEbI3CZh/gAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMy0wMi0wNFQyMToxOTowNyswMDowMFGlVmgAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjMtMDItMDRUMjE6MTk6MDcrMDA6MDAg+O7UAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDIzLTAyLTA0VDIxOjE5OjA3KzAwOjAwd+3PCwAAAABJRU5ErkJggg=="/>
+</defs>
+</svg>
