@@ -1,6 +1,12 @@
 import React from "react";
 
+
 import './Landing.css'
+
+import animationData from "./assets/mouse-scrolling.json";
+import "./Landing.css";
+import bg from "./assets/landing_bg.svg";
+
 
 const Landing = () => {
   return (
@@ -13,6 +19,7 @@ const Landing = () => {
             AUG12 - AUG13
           </h3>
           <h1 className="text-[#f5d7e3] text-10xl sm:text-11xl md:text-[20vw] text-shadow">
+
             <span aria-hidden='true'>CAD</span>
             CAD
             <span aria-hidden='true'>CAD</span>
@@ -22,7 +29,6 @@ const Landing = () => {
             <h3>ALT</h3>
             <h3>DELETE</h3>
           </div>
-          
         </div>
       </div>
     </div>
