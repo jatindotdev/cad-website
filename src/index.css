@@ -19,6 +19,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: Pixeboy;
+  src: url("../assets/fonts/Pixeboy.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

@@ -29,7 +29,7 @@ function Menu() {
         duration: 0.4,
       }}
       id="menu"
-      className="h-5/6 w-5/6 bg-[#0b021f] bottom-8 fixed left-1/2">
+      className="h-5/6 w-5/6 bg-[#0b021f] bottom-8 fixed left-1/2 z-50">
       <div>
         <motion.p
           initial={{
