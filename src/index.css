@@ -99,7 +99,95 @@ button.menu-button:hover {
   }
 
   50% {
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgb(45, 226, 230) 3px,
+      rgb(45, 226, 230) 3px
+    );
+  }
+
+  60% {
     border-color: rgb(45, 226, 230);
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgb(45, 226, 230) 3px,
+      rgb(45, 226, 230) 3.5px
+    );
+  }
+
+  80% {
+    border-color: rgb(45, 226, 230);
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgb(45, 226, 230) 3px,
+      rgb(45, 226, 230) 3.25px
+    );
+  }
+
+  100% {
+    border-color: rgb(45, 226, 230);
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgb(45, 226, 230) 3px,
+      rgb(45, 226, 230) 3px
+    );
+  }
+}
+
+button.home-button{
+  animation: anime-bg 200ms ease-in-out infinite
+}
+
+@keyframes anime-bg{
+  10% {
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgb(45, 226, 230) 3px,
+      rgb(45, 226, 230) 3px
+    );
+  }
+
+  20% {
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgb(45, 226, 230) 3px,
+      rgb(45, 226, 230) 3px
+    );
+  }
+
+  30% {
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgb(45, 226, 230) 3px,
+      rgb(45, 226, 230) 3px
+    );
+  }
+
+  40% {
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgb(45, 226, 230) 3px,
+      rgb(45, 226, 230) 3px
+    );
+  }
+
+  50% {
     background: repeating-linear-gradient(
       0deg,
       transparent,
