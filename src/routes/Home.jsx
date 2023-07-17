@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
 import Landing from "../sections/Landing/Landing";
+import Tracks from "../../components/Tracks";
 
 function Home() {
   return (
     <>
       <section className="bg-[#200837] text-white">
-        
         <section className="min-h-screen font-[vcr-osd]">
-        <Landing />
+          <Landing />
         </section>
         <section className="max-w-7xl min-h-screen flex flex-col justify-center items-center mx-auto px-16">
           <div className="">
@@ -73,6 +73,7 @@ function Home() {
         </section>
       </section>
       <footer />
+      <Tracks />
     </>
   );
 }
