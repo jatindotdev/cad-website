@@ -152,9 +152,36 @@ button.menu-button:hover {
 button.home-button{
   animation: anime-bg 200ms ease-in-out infinite
 }
-
-@keyframes anime-bg{
+.fade-in{
+  animation: fade-in-glitch 2s linear 2s;
+}
+@keyframes fade-in-glitch{
+  0% {
+    opacity: 0;
+    transform: translateX(0);
+  }
+  5% {
+    opacity: 1;
+  }
+  7% {
+    transform: translateX(-5px);
+  }
   10% {
+    transform: translateX(5px);
+  }
+  12% {
+    transform: translateX(-2px);
+  }
+  14% {
+    transform: translateX(2px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes anime-bg{
+  0% {
     background: repeating-linear-gradient(
       0deg,
       transparent,
@@ -237,6 +264,8 @@ button.home-button{
     );
   }
 }
+
+
 
 span.title-decoration {
   font-weight: 100;
