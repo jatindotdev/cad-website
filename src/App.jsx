@@ -1,5 +1,4 @@
 import { Route, Routes } from "react-router-dom";
-import About from "./routes/About";
 import Home from "./routes/Home";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -16,7 +15,6 @@ function App() {
       <Menu />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
       </Routes>
       <Footer />
     </GlobalContext.Provider>
