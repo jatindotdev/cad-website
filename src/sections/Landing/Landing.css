@@ -49,3 +49,21 @@
       text-shadow: 3px 0px -8px #E2319A
     }
 }
+
+@keyframes movingStars {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100vw 100vh;
+  }
+}
+
+.stars {
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-image: url("path-to-your-star-image");
+  background-repeat: repeat;
+  animation: movingStars 20s linear infinite;
+}
