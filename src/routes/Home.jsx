@@ -75,7 +75,9 @@ function Home() {
         </section>
       </section>
       <Tracks />
-      <Faq className="min-h-screen" />
+      <section className="bg-[#200837] text-white">
+        <Faq className="min-h-screen" />
+      </section>
       <footer />
     </>
   );

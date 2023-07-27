@@ -65,7 +65,7 @@ const Tracks = () => {
 
   return (
     <>
-      <div className="bg-[#0d0221] grid text-white-off">
+      <div className="bg-[#0d0221] grid text-white-off py-10">
         <p className="mt-8 text-8xl justify-self-center">
           <span
             className="text-[#f5d7e3] font-[vcr-osd] shadow-lg underline"
