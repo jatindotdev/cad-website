@@ -1,10 +1,13 @@
 import { motion } from "framer-motion";
 import Landing from "../sections/Landing/Landing";
 import Tracks from "../../components/Tracks";
+import About from '../sections/About/About';
+import Faq from "../sections/FAQ/Faq";
 
 function Home() {
   return (
     <>
+      <>
       <section className="bg-[#200837] text-white">
         <section className="min-h-screen font-[vcr-osd]">
           <Landing />
@@ -72,8 +75,9 @@ function Home() {
           </div>
         </section>
       </section>
-      <footer />
       <Tracks />
+      <Faq className='min-h-screen'/>
+      <footer />
     </>
   );
 }
