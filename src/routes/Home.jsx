@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Tracks from "../../components/Tracks";
 
 function Home() {
   return (
@@ -7,7 +8,7 @@ function Home() {
         <section className="min-h-screen font-[vcr-osd]"></section>
         <section className="max-w-7xl min-h-screen flex flex-col justify-center items-center px-16">
           <div className="">
-            <h2 className="font-[Power] w-full mb-6 text-7xl text-center">
+            <h2 className="font-[Power] w-full mb-6 lg:text-7xl text-center text-5xl">
               ACCESS THE GLOBAL SYSTEM <br /> OF INTERCONNECTED <br /> COMPUTER
               NETWORKS.
             </h2>
@@ -68,7 +69,7 @@ function Home() {
           </div>
         </section>
       </section>
-      <footer />
+      <Tracks />
     </>
   );
 }
