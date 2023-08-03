@@ -1,12 +1,17 @@
 import { motion } from "framer-motion";
+import Landing from "../sections/Landing/Landing";
 import Tracks from "../../components/Tracks";
+import About from "../sections/About/About";
+import Faq from "../sections/FAQ/Faq";
 
 function Home() {
   return (
     <>
       <section className="bg-[#200837] text-white">
-        <section className="min-h-screen font-[vcr-osd]"></section>
-        <section className="max-w-7xl min-h-screen flex flex-col justify-center items-center px-16">
+        <section className="min-h-screen font-[vcr-osd]">
+          <Landing />
+        </section>
+        <section className="max-w-7xl min-h-screen flex flex-col justify-center items-center mx-auto px-16">
           <div className="">
             <h2 className="font-[Power] w-full mb-6 lg:text-7xl text-center text-5xl">
               ACCESS THE GLOBAL SYSTEM <br /> OF INTERCONNECTED <br /> COMPUTER
@@ -70,6 +75,10 @@ function Home() {
         </section>
       </section>
       <Tracks />
+      <section className="bg-[#200837] text-white">
+        <Faq className="min-h-screen" />
+      </section>
+      <footer />
     </>
   );
 }
