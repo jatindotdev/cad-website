@@ -13,7 +13,7 @@ function Home() {
         </section>
         <section className="max-w-7xl min-h-screen flex flex-col justify-center items-center mx-auto px-16">
           <div className="">
-            <h2 className="font-[Power] w-full mb-6 text-7xl text-center">
+            <h2 className="font-[Power] w-full mb-6 lg:text-7xl text-center text-5xl">
               ACCESS THE GLOBAL SYSTEM <br /> OF INTERCONNECTED <br /> COMPUTER
               NETWORKS.
             </h2>

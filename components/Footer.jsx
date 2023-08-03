@@ -20,7 +20,7 @@ function Footer() {
           </a>
         </p>
       </div>
-      <div className="flex flex-row flex-wrap relative top-52 left-10 sm:space-x-10 space-y-8 sm:space-y-0">
+      <div className="flex flex-row flex-wrap justify-center relative top-52 left-10 sm:space-x-10 space-y-8 sm:space-y-0">
         <div className="border-[#f5d7e3] border-x-2 border-t-2 w-[90%] sm:w-[300px] h-[210px]">
           <ul className={`font-[vcr-osd] space-y-3 ${styles.grad}`}>
             <li className="bg-[#f5d7e3] text-black w-full pl-6 text-base h-[20px] tracking-wider">
@@ -56,14 +56,14 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div className="flex flex-row flex-wrap relative top-10 justify-around lg:top-0">
+        <div className="flex flex-row flex-wrap relative top-10 lg1195:top-0 sm:-left-16 lg1195:left-0">
           <div className="font-[vcr-ocd] sm:space-x-40 text-sm">
             <p className="sm:ml-32">Created by:</p>
             <p>Coding Ninjas SRM</p>
             <p>SRM Kattankulathur</p>
             <p>603203</p>
           </div>
-          <div className="font-[vcr-ocd] sm:space-x-40 text-sm">
+          <div className="font-[vcr-ocd] sm:space-x-40 text-sm mobile:mt-0 -mt-10">
             <p></p>
             <p className="sm:ml-56 ml-40">Copyright © 2023</p>
           </div>

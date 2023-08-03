@@ -9,20 +9,20 @@
   background: linear-gradient(0deg, transparent, #0d0221 20%);
 }
 
-@media (max-width: 640px) {
+@media (max-width: 650px) {
   .bgimg {
     background-image: url(/footerimg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 180vh;
+    height: 190vh;
   }
 }
 
-@media (max-height: 690px) and (min-width: 640px) {
+@media (min-width: 640px) {
   .bgimg {
     background-image: url(/footerimg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 124vh;
+    height: 125vh;
   }
 }

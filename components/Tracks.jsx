@@ -65,8 +65,8 @@ const Tracks = () => {
 
   return (
     <>
-      <div className="bg-[#0d0221] grid text-white-off py-10">
-        <p className="mt-8 text-8xl justify-self-center">
+      <div className="bg-[#0d0221] grid text-white-off">
+        <p className="mt-8 text-5xl sm:text-8xl justify-self-center">
           <span
             className="text-[#f5d7e3] font-[vcr-osd] shadow-lg underline"
             style={{ textShadow: "3px 3px #f6019d" }}>
@@ -77,7 +77,7 @@ const Tracks = () => {
         <div className=" w-[80vw] grid smoverflow:grid-cols-2 smoverflow:grid-rows-3 lgoverflow:grid-cols-3 lgoverflow:grid-rows-2 grid-cols-1 gap-28 mt-12 justify-self-center sm:mr-6">
           {/* Repeat the following block for each grid */}
           <div
-            className="border-solid border-2 border-[#f6019d] grid w-[50vh] justify-self-center"
+            className="border-solid border-2 border-[#f6019d] grid w-[40vh] sm:w-[50vh] justify-self-center"
             onMouseEnter={handleHover1}
             onMouseLeave={handleHoverExit1}>
             <div className="flex overflow-hidden relative">
@@ -123,7 +123,7 @@ const Tracks = () => {
             </div>
           </div>
           <div
-            className="border-solid border-2 border-[#f6019d] grid w-[50vh] justify-self-center"
+            className="border-solid border-2 border-[#f6019d] grid w-[40vh] sm:w-[50vh] justify-self-center"
             onMouseEnter={handleHover2}
             onMouseLeave={handleHoverExit2}>
             <div className="flex overflow-hidden relative">
@@ -169,7 +169,7 @@ const Tracks = () => {
             </div>
           </div>
           <div
-            className="border-solid border-2 border-[#f6019d] grid w-[50vh] justify-self-center"
+            className="border-solid border-2 border-[#f6019d] grid w-[40vh] sm:w-[50vh] justify-self-center"
             onMouseEnter={handleHover3}
             onMouseLeave={handleHoverExit3}>
             <div className="flex overflow-hidden relative">
@@ -215,7 +215,7 @@ const Tracks = () => {
             </div>
           </div>
           <div
-            className="border-solid border-2 border-[#f6019d] grid w-[50vh] justify-self-center"
+            className="border-solid border-2 border-[#f6019d] grid w-[40vh] sm:w-[50vh] justify-self-center"
             onMouseEnter={handleHover4}
             onMouseLeave={handleHoverExit4}>
             <div className="flex overflow-hidden relative">
@@ -261,7 +261,7 @@ const Tracks = () => {
             </div>
           </div>
           <div
-            className="border-solid border-2 border-[#f6019d] grid w-[50vh] justify-self-center"
+            className="border-solid border-2 border-[#f6019d] grid w-[40vh] sm:w-[50vh] justify-self-center"
             onMouseEnter={handleHover5}
             onMouseLeave={handleHoverExit5}>
             <div className="flex overflow-hidden relative">
@@ -307,7 +307,7 @@ const Tracks = () => {
             </div>
           </div>
           <div
-            className="border-solid border-2 border-[#f6019d] grid w-[50vh] justify-self-center"
+            className="border-solid border-2 border-[#f6019d] grid w-[40vh] sm:w-[50vh] justify-self-center"
             onMouseEnter={handleHover6}
             onMouseLeave={handleHoverExit6}>
             <div className="flex overflow-hidden relative">

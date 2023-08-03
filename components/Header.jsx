@@ -17,7 +17,7 @@ function Header() {
             return !visible;
           });
         }}
-        className="text-xs w-max px-[25px] py-[10px] cursor-pointer h-max border menu-button">
+        className="text-xs w-max px-[25px] py-[10px] cursor-pointer h-max border menu-button lg:px-0">
         {isMenuVisible ? "[ X ]" : "MENU"}
       </button>
     </header>
