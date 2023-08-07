@@ -22,8 +22,8 @@ const Landing = () => {
             <h3>DELETE</h3>
           </div>
         </div>
-        <div className=" fade-in">
-          <button className="home-button py-5 md:px-10 px-5 mt-20">
+        <div className="">
+          <button className="py-5 md:px-10 px-5 mt-20 border menu-button">
             APPLICATIONS OPEN!
           </button>
         </div>

@@ -149,13 +149,13 @@ button.menu-button:hover {
   }
 }
 
-button.home-button{
-  animation: anime-bg 200ms ease-in-out infinite
+button.home-button {
+  animation: anime-bg 200ms ease-in-out infinite;
 }
-.fade-in{
+.fade-in {
   animation: fade-in-glitch 2s linear 2s;
 }
-@keyframes fade-in-glitch{
+@keyframes fade-in-glitch {
   0% {
     opacity: 0;
     transform: translateX(0);
@@ -180,7 +180,7 @@ button.home-button{
     transform: translateX(0);
   }
 }
-@keyframes anime-bg{
+@keyframes anime-bg {
   0% {
     background: repeating-linear-gradient(
       0deg,
@@ -265,8 +265,6 @@ button.home-button{
   }
 }
 
-
-
 span.title-decoration {
   font-weight: 100;
   font-size: 21px;
@@ -292,4 +290,29 @@ span.title-decoration {
   to {
     visibility: hidden;
   }
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondary);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--primary);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--secondary);
+  border-radius: 15px;
+  border: 3px solid var(--primary);
+}
+
+:root {
+  --primary: #0d0221;
+  --secondary: #f6019d;
 }
