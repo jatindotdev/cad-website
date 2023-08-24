@@ -23,7 +23,7 @@ const Landing = () => {
           </div>
         </div>
         <div className=" fade-in">
-          <button className="home-button py-5 md:px-10 px-5 mt-20">
+          <button className="py-5 md:px-10 px-5 mt-20 menu-button border">
             APPLICATIONS OPEN!
           </button>
         </div>
