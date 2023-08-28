@@ -24,6 +24,7 @@ const Landing = () => {
         </div>
         <div className=" fade-in">
           <button className="py-5 md:px-10 px-5 mt-20 menu-button border">
+      
             APPLICATIONS OPEN!
           </button>
         </div>
