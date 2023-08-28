@@ -20,7 +20,7 @@ function Footer() {
           </a>
         </p>
       </div>
-      <div className="flex flex-row flex-wrap justify-center relative top-52 left-10 sm:space-x-10 space-y-8 sm:space-y-0">
+      <div className="flex flex-row flex-wrap justify-center relative top-52 sm:left-10 sm:space-x-10 space-y-8 sm:space-y-0">
         <div className="border-[#f5d7e3] border-x-2 border-t-2 w-[90%] sm:w-[300px] h-[210px]">
           <ul className={`font-[vcr-osd] space-y-3 ${styles.grad}`}>
             <li className="bg-[#f5d7e3] text-black w-full pl-6 text-base h-[20px] tracking-wider">
