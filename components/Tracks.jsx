@@ -106,7 +106,7 @@ const Tracks = () => {
             <div className="justify-self-center -mt-16 sm:-mt-44">
               <img src={footer} alt="" width={150} />
             </div>
-            <div className="px-3 bg-[#f6019d] text-5xl text-center font-[vcr-osd] md:h-[13vh] flex items-center justify-center">
+            <div className="px-3 bg-[#f6019d] md:text-5xl text-4xl text-center font-[vcr-osd] md:h-[13vh] flex items-center justify-center">
             OPEN INNOVATION
             </div>
             <div className="space-y-1">
