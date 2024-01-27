@@ -28,7 +28,7 @@ const Landing = () => {
             </button>
           </div>
           <div className="fade-in">
-            <a href="https://cad-2.devfolio.co" target="new" className=" py-6 w-[18vw]  md:px-5 px-[12vw]  text-sm menu-button bg-[#456FF6]">
+            <a href="https://cad-2.devfolio.co" target="new" className=" py-6 w-[18vw]  md:px-5 px-[7.5vw]  text-sm menu-button bg-[#456FF6]">
               APPLY WITH DEVFOLIO
             </a>
           </div>
