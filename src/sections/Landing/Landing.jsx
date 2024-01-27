@@ -1,6 +1,5 @@
 import React from "react";
 import "./Landing.css";
-
 const Landing = () => {
   return (
     <div
@@ -22,11 +21,17 @@ const Landing = () => {
             <h3>DELETE</h3>
           </div>
         </div>
-        <div className=" fade-in">
-          <button className="py-5 md:px-10 px-5 mt-20 menu-button border">
-      
-            APPLICATIONS OPEN!
-          </button>
+        <div className="flex items-center mt-20 space-x-5">
+          <div className="fade-in">
+            <button className="py-4 md:px-10 px-5 menu-button border">
+              APPLICATIONS OPEN!
+            </button>
+          </div>
+          <div className="fade-in">
+            <a href="https://cad-2.devfolio.co" target="new" className=" py-5 w-[18vw] flex justify-center md:px-5 px-5  text-sm menu-button bg-[#456FF6]">
+              APPLY WITH DEVFOLIO
+            </a>
+          </div>
         </div>
       </div>
     </div>

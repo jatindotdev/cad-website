@@ -18,16 +18,12 @@ function Home() {
             initial={{ x: -100 }}
             animate={{ x: 100 }}
             transition={{ duration: 3, repeat: 100, ease: "linear" }}>
-            Register Now / Interesting Prizes / Register Now / Interesting Prizes /
+            / Exciting Challenges / Register Now /  / Unforgettable Experience 
           </motion.div>
           <div className="flex flex-col justify-center items-center text-lg">
             <p className="mb-5">
-              Is your business all about glass, or are you thinking about
-              including glass interactions in your ideal website?
+              Registeration is now open for this thrilling 36 hour coding extravaganza !
             </p>
-            <button className="text-xs w-max px-[25px] py-[10px] cursor-pointer h-max border menu-button">
-              Get in touch for a special deal
-            </button>
           </div>
         </section>
       </section>

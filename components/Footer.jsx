@@ -14,7 +14,7 @@ function Footer() {
         </span>
         <p className="pt-3 font-sans border-b-2 border-red-300 hover:border-[#2de2e6] hover:text-[#2de2e6]">
           <a
-            href="mailto : codingninjasrm@srmist.edu.in"
+            href="codingninjasrm@srmist.edu.in"
             title="personal email">
             codingninjasrm@srmist.edu.in
           </a>
@@ -29,14 +29,12 @@ function Footer() {
             <li className="hover:bg-[#f5d7e3] hover:text-black text-[#f5d7e3] w-full pl-6 text-base h-[20px] tracking-wide">
               INSTAGRAM
             </li>
-            <li className="hover:bg-[#f5d7e3] hover:text-black  text-[#f5d7e3] w-full pl-6 text-base h-[20px] tracking-wide">
-              GITHUB
-            </li>
             <li className="hover:bg-[#f5d7e3]  hover:text-black text-[#f5d7e3] w-full pl-6 text-base h-[20px] tracking-wide">
-              DRIBBLE
-            </li>
-            <li className="hover:bg-[#f5d7e3]  hover:text-black text-[#f5d7e3] w-full pl-6 text-base h-[20px] tracking-wide">
-              Linkedln
+              <a
+                href="https://www.linkedin.com/company/coding-ninjas-club-srm/mycompany/"
+                target="new">
+                LINKEDIN
+              </a>
             </li>
           </ul>
         </div>
@@ -46,10 +44,10 @@ function Footer() {
               PAGES
             </li>
             <li className="hover:bg-[#f5d7e3] hover:text-black text-[#f5d7e3] w-full pl-6 text-base h-[20px] tracking-wide">
-              PROJECTS
+              ABOUT
             </li>
             <li className="hover:bg-[#f5d7e3] hover:text-black  text-[#f5d7e3] w-full pl-6 text-base h-[20px] tracking-wide">
-              PLAYGROUND
+              FAQ
             </li>
             <li className="hover:bg-[#f5d7e3]  hover:text-black text-[#f5d7e3] w-full pl-6 text-base h-[20px] tracking-wide">
               TRACKS
@@ -65,14 +63,14 @@ function Footer() {
           </div>
           <div className="font-[vcr-ocd] sm:space-x-40 text-sm mobile:mt-0 -mt-10">
             <p></p>
-            <p className="sm:ml-56 ml-40">Copyright © 2023</p>
+            <p className="sm:ml-56 ml-40">Copyright © 2024</p>
           </div>
         </div>
       </div>
       <div className="flex flex-col items-center relative top-72 text-xs font-[vcr-ocd] tracking-widest">
         <p>
           THE &nbsp;YEAR &nbsp;IS &nbsp;
-          <span className="font-2xl text-pink-600">2023</span>
+          <span className="font-2xl text-pink-600">2024</span>
           &nbsp;.
         </p>
         <p>IT &nbsp;IS &nbsp;THE&nbsp; FUTURE&nbsp;.</p>
