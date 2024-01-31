@@ -292,7 +292,7 @@ const Tracks = () => {
               <hr className="border-[1px] border-solid border-[#f6019d]"></hr>
             </div>
             <div className="px-2 py-4 text-[#f5d7e3] text-center md:h-[35vh]">
-            We are working to leverage the potential of technology to transform healthcare at [Your Hackathon Name]. Join us as we investigate how innovative solutions may enhance patient care, simplify medical procedures, and foster a healthier environment in the Health Innovation track. Whether you work in healthcare, are a tech-savvy developer, an innovative designer, or a data scientist, your abilities can have a significant effect on how healthcare is delivered in the future.
+            We are working to leverage the potential of technology to transform healthcare at CAD. Join us as we investigate how innovative solutions may enhance patient care, simplify medical procedures, and foster a healthier environment in the Health Innovation track. Whether you work in healthcare, are a tech-savvy developer, an innovative designer, or a data scientist, your abilities can have a significant effect on how healthcare is delivered in the future.
             </div>
           </div>
           <div

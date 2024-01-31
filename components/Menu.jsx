@@ -173,12 +173,12 @@ function Menu() {
                   <p className="h-[4vh] w-3/4 text-xs m-[0_0_auto_auto] border border-[#f5d7e3] grid place-items-center">
                     {locationHash === "" ? (index === 0 ? "YOU'RE HERE" : null) : route.toLowerCase() === locationHash ? "YOU'RE HERE" : null}
                   </p>
-                  <span className="absolute top-[35%] right-0 translate-x-full h-px w-1/2 origin-[left_center] bg-[#f5d7e3] -z-10"></span>
+                  <span className="absolute top-[35%] right-0 translate-x-full h-px md:w-1/2 w-1/3 origin-[left_center] bg-[#f5d7e3] -z-10"></span>
                 </a>
               );
             })}
           </div>
-          <div className="w-[70%]">
+          <div className="md:block hidden w-[70%] ">
             {selectedIndex === 0 ? (<motion.div
               initial={{
                 scaleX: 0,
