@@ -8,7 +8,7 @@ const Landing = () => {
       <div className="w-full h-full flex flex-col justify-center items-center">
         <div className="stars font-pixeboy flex flex-col justify-center items-center z-10">
           <h3 className="text-white-off text-2xl sm:text-3xl md:text-4xl">
-            AUG12 - AUG13
+            MAR15 - MAR16
           </h3>
           <h1 className="text-[#f5d7e3] text-10xl sm:text-11xl md:text-[20vw] text-shadow">
             <span aria-hidden="true">CAD</span>
