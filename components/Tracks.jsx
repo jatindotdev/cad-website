@@ -116,7 +116,7 @@ const Tracks = () => {
               <hr className="border-[1px] border-solid border-[#f6019d]"></hr>
             </div>
             <div className="px-2 py-4 text-[#f5d7e3] text-center md:h-[35vh]">
-            The Open Innovation Track at CAD is all about embracing collaboration, creativity, and the power of open source. This track encourages participants to leverage existing open-source projects, contribute to them, or create new projects with the spirit of open innovation. It's an opportunity to be part of a global community, solve real-world problems, and make a positive impact on the world
+            Join the Open Innovation Track at CAD, where collaboration, creativity, and the power of open source take center stage. Dive into existing projects, contribute, or create new ones with the spirit of open innovation. Be part of a global community, solve real-world problems, and make a positive impact.
             </div>
           </div>
           <div
@@ -248,7 +248,7 @@ const Tracks = () => {
               <hr className="border-[1px] border-solid border-[#f6019d]"></hr>
             </div>
             <div className="px-2 py-4 text-[#f5d7e3] text-center md:h-[35vh]">
-            Welcome to CAD, where we're embarking on a mission to revolutionize education through the magic of EdTech (Educational Technology). In a digital age where learning knows no boundaries, EdTech stands as the catalyst for reshaping how we acquire knowledge, deliver lessons, and empower learners of every age and background. Join us in shaping the future of education, unlocking its true potential for all.
+            Join CAD in revolutionizing education through EdTech. In a digital age without boundaries, EdTech transforms how we acquire knowledge and empower learners of all ages and backgrounds. Shape the future of education and unlock its true potential for all.
             </div>
           </div>
           <div
@@ -292,7 +292,7 @@ const Tracks = () => {
               <hr className="border-[1px] border-solid border-[#f6019d]"></hr>
             </div>
             <div className="px-2 py-4 text-[#f5d7e3] text-center md:h-[35vh]">
-            We are working to leverage the potential of technology to transform healthcare at CAD. Join us as we investigate how innovative solutions may enhance patient care, simplify medical procedures, and foster a healthier environment in the Health Innovation track. Whether you work in healthcare, are a tech-savvy developer, an innovative designer, or a data scientist, your abilities can have a significant effect on how healthcare is delivered in the future.
+            Join CAD's Health Innovation track to shape the future of healthcare through technology. Whether in healthcare, tech, design, or data science, your skills can enhance patient care, streamline procedures, and create a healthier environment.
             </div>
           </div>
           <div

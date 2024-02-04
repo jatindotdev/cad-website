@@ -4,7 +4,7 @@ import { GlobalContext } from "../utils/context";
 function Header() {
   const { isMenuVisible, setIsMenuVisible } = useContext(GlobalContext);
   return (
-    <header className="fixed top-0 left-0 w-full pt-4 px-6 font-[vcr-osd] text-white flex justify-between font-semibold items-center">
+    <header className="fixed bg-black top-0 left-0 w-full py-4 px-6 font-[vcr-osd] text-white flex justify-between font-semibold items-center" style={{ zIndex: 5 }}>
       <div className="flex flex-col">
         <span className="text-xl">
           CTRL ALT DELETE <span className="title-decoration"></span>

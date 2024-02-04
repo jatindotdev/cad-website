@@ -22,11 +22,11 @@ const Landing = () => {
           </div>
         </div>
         <div className="md:flex items-center mt-20 md:space-x-5 md:space-y-0 space-y-10">
-          <div className="fade-in">
+          {/* <div className="fade-in">
             <button className="py-4 md:px-5 px-5 menu-button border">
               APPLICATIONS OPEN!
             </button>
-          </div>
+          </div> */}
           <div className="fade-in">
             <a href="https://cad-2.devfolio.co" target="new" className=" py-6 w-[18vw]  md:px-5 px-[7.5vw]  text-sm menu-button bg-[#456FF6]">
               APPLY WITH DEVFOLIO

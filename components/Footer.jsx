@@ -4,7 +4,7 @@ import styles from "./footer.module.css";
 function Footer() {
   return (
     <div
-      className={`${styles.bgimg} flex flex-col text-[#f5d7e3] p-10 text-xl`}>
+      className={`${styles.bgimg} flex flex-col text-[#f5d7e3] p-10 text-xl md:h-[125vh] h-[210vh]`}>
       <div className="flex flex-col relative top-28 font-[power] items-center justify-center text-center space-y-2">
         <span className="text-5xl cursor-default">
           Back to the future to do
@@ -16,18 +16,22 @@ function Footer() {
           <a
             href="codingninjasrm@srmist.edu.in"
             title="personal email">
-            codingninjasrm@srmist.edu.in
+            cnqueries2k23@gmail.com
           </a>
         </p>
       </div>
       <div className="flex flex-row flex-wrap justify-center relative top-52 sm:left-10 sm:space-x-10 space-y-8 sm:space-y-0">
-        <div className="border-[#f5d7e3] border-x-2 border-t-2 w-[90%] sm:w-[300px] h-[210px]">
+        <div className="border-[#f5d7e3] border-x-2 border-t-2 w-[80%] md:w-[300px] h-[300px]">
           <ul className={`font-[vcr-osd] space-y-3 ${styles.grad}`}>
             <li className="bg-[#f5d7e3] text-black w-full pl-6 text-base h-[20px] tracking-wider">
               SOCIALS
             </li>
             <li className="hover:bg-[#f5d7e3] hover:text-black text-[#f5d7e3] w-full pl-6 text-base h-[20px] tracking-wide">
-              INSTAGRAM
+              <a
+                href="https://chat.whatsapp.com/Fqtm4bUzzLh6ABbKtEcDEP"
+                target="new">
+                WHATSAPP
+              </a>
             </li>
             <li className="hover:bg-[#f5d7e3]  hover:text-black text-[#f5d7e3] w-full pl-6 text-base h-[20px] tracking-wide">
               <a
@@ -38,7 +42,7 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div className="border-[#f5d7e3] border-x-2 border-t-2 w-[90%] sm:w-[200px] h-[210px]">
+        <div className="border-[#f5d7e3] border-x-2 border-t-2 w-[80%] sm:w-[300px] h-[300px]">
           <ul className={`font-[vcr-osd] space-y-3 ${styles.grad}`}>
             <li className="bg-[#f5d7e3] text-black w-full pl-6 text-base h-[20px] tracking-wider">
               PAGES
