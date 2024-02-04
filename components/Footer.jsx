@@ -4,7 +4,7 @@ import styles from "./footer.module.css";
 function Footer() {
   return (
     <div
-      className={`${styles.bgimg} flex flex-col text-[#f5d7e3] p-10 text-xl md:h-[125vh] h-[210vh]`}>
+      className={`${styles.bgimg} flex flex-col text-[#f5d7e3] p-10 text-xl md:h-[138vh] xl:h-[124vh] h-[210vh]`}>
       <div className="flex flex-col relative top-28 font-[power] items-center justify-center text-center space-y-2">
         <span className="text-5xl cursor-default">
           Back to the future to do
