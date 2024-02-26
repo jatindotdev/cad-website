@@ -17,13 +17,13 @@ const Timeline = () => {
             className=""
             contentStyle={{ background: "#200837", color: "#FFFFFF" }}
             contentArrowStyle={{ borderRight: "7px solid #200837 " }}
-            date="29th Feb 2024"
+            date="29th Feb"
             iconStyle={{ background: "#f6019d", color: "#fff" } }
-            
+
             >
-            <h3 className="vertical-timeline-element-title ">
+            <h2 className="vertical-timeline-element-title " style={{color:"white"}}>
             DEVFOLIO Form Closes
-            </h3>
+            </h2>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -32,7 +32,7 @@ const Timeline = () => {
             date="1st March - 7th March"
             iconStyle={{ background: "#f6019d", color: "#fff" }}
             >
-            <h3 className="vertical-timeline-element-title">Ideation PPT Submission on Devfolio</h3>
+            <h2 className="vertical-timeline-element-title " style={{color:"white"}}>Ideation PPT Submission on Devfolio</h2>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -41,7 +41,7 @@ const Timeline = () => {
             date="8th March - 11th March"
             iconStyle={{ background: "#f6019d", color: "#fff" }}
             >
-            <h3 className="vertical-timeline-element-title">Filtration Round</h3>
+            <h2 className="vertical-timeline-element-title " style={{color:"white"}}>Filtration Round</h2>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -50,7 +50,7 @@ const Timeline = () => {
             date="11th March"
             iconStyle={{ background: "#f6019d", color: "#fff" }}
             >
-            <h3 className="vertical-timeline-element-title">Filtration Results Announcement</h3>
+            <h2 className="vertical-timeline-element-title " style={{color:"white"}}>Filtration Results Announcement</h2>
    
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -60,9 +60,9 @@ const Timeline = () => {
             date="14th March"
             iconStyle={{ background: "#f6019d", color: "#fff" }}
             >
-            <h3 className="vertical-timeline-element-title">
+            <h2 className="vertical-timeline-element-title " style={{color:"white"}}>
             Introductory Ceremony
-            </h3>
+            </h2>
   
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -72,9 +72,9 @@ const Timeline = () => {
             date="15th March 9:30 am"
             iconStyle={{ background: "#f6019d", color: "#fff" }}
             >
-            <h3 className="vertical-timeline-element-title">
+            <h2 className="vertical-timeline-element-title " style={{color:"white"}}>
               Hacking Starts
-            </h3>
+            </h2>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
@@ -83,9 +83,9 @@ const Timeline = () => {
             date="16th March 9:30 pm"
             iconStyle={{ background: "#f6019d", color: "#fff" }}
             >
-            <h3 className="vertical-timeline-element-title">
+            <h2 className="vertical-timeline-element-title " style={{color:"white"}}>
             Hacking Ends
-            </h3>
+            </h2>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
@@ -94,9 +94,9 @@ const Timeline = () => {
             date="17th March"
             iconStyle={{ background: "#f6019d", color: "#fff" }}
             >
-            <h3 className="vertical-timeline-element-title">
-            Prize Distribution Ceremony: BYE BYE CAD2.0!
-            </h3>
+            <h2 className="vertical-timeline-element-title " style={{color:"white"}}>
+            Prize Distribution Ceremony <br/> BYE BYE CAD2.0!
+            </h2>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
