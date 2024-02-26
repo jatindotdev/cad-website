@@ -3,7 +3,6 @@ import Landing from "../sections/Landing/Landing";
 import Tracks from "../../components/Tracks";
 import About from "../sections/About/About";
 import Faq from "../sections/FAQ/Faq";
-import Timeline from "../sections/Timeline/timeline";
 
 function Home() {
 
@@ -31,7 +30,6 @@ function Home() {
         </section>
       </section>
       <Tracks />
-      <Timeline/>
       <section className="bg-[#200837] text-white">
         <Faq className="min-h-screen" />
       </section>
