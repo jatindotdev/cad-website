@@ -31,7 +31,7 @@ function Home() {
         </section>
       </section>
       <Tracks />
-      <Timeline/>
+      {/* <Timeline/> */}
       <section className="bg-[#200837] text-white">
         <Faq className="min-h-screen" />
       </section>
