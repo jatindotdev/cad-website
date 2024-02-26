@@ -14,7 +14,7 @@ const Timeline = () => {
       <div className="md:mx-10 mx-5">
         <VerticalTimeline>
           <VerticalTimelineElement
-            className=""
+            className="vertical-timeline-element--work"
             contentStyle={{ background: "#200837", color: "#FFFFFF" }}
             contentArrowStyle={{ borderRight: "7px solid #200837 " }}
             date="29th Feb"
