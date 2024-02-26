@@ -18,7 +18,9 @@ const Timeline = () => {
             contentStyle={{ background: "rgb(32, 8, 55)", color: "#FFFFFF" }}
             contentArrowStyle={{ borderRight: "7px solid rgb(32, 8, 55) " }}
             date="29th Feb"
-            iconStyle={{ background: "rgb(285,1,157)", color: "#fff" }}>
+            iconStyle={{ background: "rgb(285,1,157)", color: "#fff" }}
+            icon =""
+            >
             <h3
               className="vertical-timeline-element-title "
               style={{ color: "white" }}>
@@ -32,7 +34,9 @@ const Timeline = () => {
             contentStyle={{ background: "rgb(32, 8, 55)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(32, 8, 55)" }}
             date="1st March - 7th March"
-            iconStyle={{ background: "rgb(285,1,157)", color: "#fff" }}>
+            iconStyle={{ background: "rgb(285,1,157)", color: "#fff" }}
+            icon =""
+            >
             <h3
               className="vertical-timeline-element-title "
               style={{ color: "white" }}>
@@ -46,7 +50,9 @@ const Timeline = () => {
             contentStyle={{ background: "rgb(32, 8, 55)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(32, 8, 55)" }}
             date="8th March - 11th March"
-            iconStyle={{ background: "rgb(285,1,157)", color: "#fff" }}>
+            iconStyle={{ background: "rgb(285,1,157)", color: "#fff" }}
+            icon =""
+            >
             <h3
               className="vertical-timeline-element-title "
               style={{ color: "white" }}>
@@ -60,7 +66,9 @@ const Timeline = () => {
             contentStyle={{ background: "rgb(32, 8, 55)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(32, 8, 55)" }}
             date="11th March"
-            iconStyle={{ background: "rgb(285,1,157)", color: "#fff" }}>
+            iconStyle={{ background: "rgb(285,1,157)", color: "#fff" }}
+            icon =""
+            >
             <h3
               className="vertical-timeline-element-title "
               style={{ color: "white" }}>
@@ -74,7 +82,9 @@ const Timeline = () => {
             contentStyle={{ background: "rgb(32, 8, 55)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid rgb(32, 8, 55)" }}
             date="14th March"
-            iconStyle={{ background: "rgb(285,1,157)", color: "#fff" }}>
+            iconStyle={{ background: "rgb(285,1,157)", color: "#fff" }}
+            icon =""
+            >
             <h3
               className="vertical-timeline-element-title "
               style={{ color: "white" }}>
@@ -88,7 +98,9 @@ const Timeline = () => {
             contentStyle={{ background: "rgb(32, 8, 55)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(32, 8, 55)" }}
             date="15th March 9:30 am"
-            iconStyle={{ background: "rgb(285,1,157)", color: "#fff" }}>
+            iconStyle={{ background: "rgb(285,1,157)", color: "#fff" }}
+            icon =""
+            >
             <h3
               className="vertical-timeline-element-title "
               style={{ color: "white" }}>
@@ -102,7 +114,9 @@ const Timeline = () => {
             contentStyle={{ background: "rgb(32, 8, 55)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(32, 8, 55)" }}
             date="16th March 9:30 pm"
-            iconStyle={{ background: "rgb(285,1,157)", color: "#fff" }}>
+            iconStyle={{ background: "rgb(285,1,157)", color: "#fff" }}
+            icon =""
+            >
             <h3
               className="vertical-timeline-element-title "
               style={{ color: "white" }}>
@@ -116,7 +130,9 @@ const Timeline = () => {
             contentStyle={{ background: "rgb(32, 8, 55)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(32, 8, 55)" }}
             date="17th March"
-            iconStyle={{ background: "rgb(285,1,157)", color: "#fff" }}>
+            iconStyle={{ background: "rgb(285,1,157)", color: "#fff" }}
+            icon =""
+            >
             <h3
               className="vertical-timeline-element-title "
               style={{ color: "white" }}>
