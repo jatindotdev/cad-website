@@ -1,9 +1,9 @@
 import React from "react";
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
-import "react-vertical-timeline-component/style.min.css";
+// import {
+//   VerticalTimeline,
+//   VerticalTimelineElement,
+// } from "react-vertical-timeline-component";
+// import "react-vertical-timeline-component/style.min.css";
 
 const Timeline = () => {
   return (
@@ -12,7 +12,7 @@ const Timeline = () => {
         TIMELINE
       </h1>
       <div className="md:mx-10 mx-5">
-        <VerticalTimeline>
+        {/* <VerticalTimeline>
           <VerticalTimelineElement
             className=""
             contentStyle={{ background: "#200837", color: "#FFFFFF" }}
@@ -98,7 +98,7 @@ const Timeline = () => {
             Prize Distribution Ceremony <br/> BYE BYE CAD2.0!
             </h2>
           </VerticalTimelineElement>
-        </VerticalTimeline>
+        </VerticalTimeline> */}
       </div>
     </div>
   );
