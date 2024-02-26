@@ -66,10 +66,10 @@ const Tracks = () => {
   return (
     <>
       <div id="tracks" className="bg-[#0d0221] grid text-white-off py-10">
-        <p className="mt-8 text-5xl sm:text-8xl justify-self-center">
+        <p className="mt-8 text-5xl sm:text-7xl justify-self-center">
           <span
-            className="text-[#f5d7e3] font-[vcr-osd] shadow-lg "
-            style={{ textShadow: "3px 3px #f6019d" }}>
+            className="text-white font-semibold font-[Power] shadow-lg "
+           >
             TRACKS
           </span>
         </p>
