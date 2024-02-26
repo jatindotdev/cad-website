@@ -14,7 +14,7 @@ const Timeline = () => {
 
   return (
     <div className='flex flex-col md:items-center md:justify-center md:px-0 px-10 py-10 bg-[#0d0221] text-white'>
-     <h2 className="md:text-5xl font-[Power] text-3xl font-semibold text-center mb-6 py-10">CAD TIMELINE</h2>
+     <h2 className="md:text-7xl font-[Power] text-3xl font-semibold text-center mb-6 py-10">CAD TIMELINE</h2>
     <div className="flex flex-col ">
       {events.map((event, index) => (
         <div className="flex flex-row items-center mb-5" key={index}>
