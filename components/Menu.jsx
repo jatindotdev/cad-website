@@ -291,8 +291,8 @@ function Menu() {
                 <div className="flex-auto w-full px-[25px] py-[15px] text-[15px] leading-none font-semibold grid space-y-14">
                   <div className="border w-max border-[#f5d7e3] px-[25px] py-[15px] justify-self-start">
                     <p className="text-xs mb-1">FOLLOW US ON</p>
-                    <a target="_blank" href="https://instagram.com/codingninjassrm" className="border-b border-b-pink-600">
-                     INSTAGRAM
+                    <a target="_blank" href="https://www.youtube.com/@codingninjasatsrm2008" className="border-b border-b-pink-600">
+                     YOUTUBE
                     </a>
                   </div>
                   <div className="border w-max border-[#f5d7e3] px-[25px] py-[15px] justify-self-center">
