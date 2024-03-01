@@ -227,20 +227,20 @@ function Menu() {
                   <div className="border w-max border-[#f5d7e3] px-[25px] py-[15px] justify-self-start">
                     <p className="text-xs">DROP AN EMAIL AT</p>
                     <p className="border-b border-b-pink-600">
-                      CONTACT@CODINGNINJAS.COM
+                    cnqueries2k23@gmail.com
                     </p>
                   </div>
-                  <div className="border w-max border-[#f5d7e3] px-[25px] py-[15px] justify-self-center">
+                  <div className="border w-max border-[#f5d7e3] px-[25px] py-[15px] justify-self-end">
                     <p className="text-xs">
                       Get in touch via your preferred social.
                     </p>
                   </div>
-                  <div className="border w-max border-[#f5d7e3] px-[25px] py-[15px] space-x-2 justify-self-end">
+                  {/* <div className="border w-max border-[#f5d7e3] px-[25px] py-[15px] space-x-2 justify-self-end">
                     <span className="text-xs">MAKE A CALL AT</span>
                     <span className="border-b border-b-pink-600">
                       +91 879 792 7892
                     </span>
-                  </div>
+                  </div> */}
                 </div>
               </motion.div>
             </motion.div>) : (
@@ -291,20 +291,20 @@ function Menu() {
                 <div className="flex-auto w-full px-[25px] py-[15px] text-[15px] leading-none font-semibold grid space-y-14">
                   <div className="border w-max border-[#f5d7e3] px-[25px] py-[15px] justify-self-start">
                     <p className="text-xs mb-1">FOLLOW US ON</p>
-                    <a target="_blank" href="https://instagram.com/codingninjassrm" className="border-b border-b-pink-600">
-                      https://instagram.com/codingninjassrm
+                    <a target="_blank" href="https://www.youtube.com/@codingninjasatsrm2008" className="border-b border-b-pink-600">
+                     YOUTUBE
                     </a>
                   </div>
                   <div className="border w-max border-[#f5d7e3] px-[25px] py-[15px] justify-self-center">
                   <p className="text-xs mb-1">FOLLOW US ON</p>
-                    <a target="_blank" href="https://instagram.com/codingninjassrm" className="border-b border-b-pink-600">
-                      https://instagram.com/codingninjassrm
+                    <a target="_blank" href="https://chat.whatsapp.com/Fqtm4bUzzLh6ABbKtEcDEP" className="border-b border-b-pink-600">
+                      WHATSAPP
                     </a>
                   </div>
                   <div className="border w-max border-[#f5d7e3] px-[25px] py-[15px] space-x-2 justify-self-end">
                   <p className="text-xs mb-1">FOLLOW US ON</p>
-                    <a target="_blank" href="https://instagram.com/codingninjassrm" className="border-b border-b-pink-600">
-                      https://instagram.com/codingninjassrm
+                    <a target="_blank" href="https://www.linkedin.com/company/coding-ninjas-club-srm/mycompany/" className="border-b border-b-pink-600">
+                      LINKEDIN
                     </a>
                   </div>
                 </div>
