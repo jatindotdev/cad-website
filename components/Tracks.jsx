@@ -79,8 +79,8 @@ const Tracks = () => {
             className="border-solid border-2 border-[#f6019d] grid w-[40vh] sm:w-[50vh] justify-self-center"
             onMouseEnter={handleHover1}
             onMouseLeave={handleHoverExit1}>
-            <div className="flex overflow-hidden relative">
-              {[...Array(100)].map((_, i) => (
+            <div className="flex overflow-hidden">
+              {/* {[...Array(100)].map((_, i) => (
                 <motion.div
                 key={i}
                 className="border-solid mx-1 sm:mx-3 h-[15vh] sm:h-[30vh] border-r-[1px] border-[#f6019d] text-[#2C1E66]"
@@ -95,16 +95,16 @@ const Tracks = () => {
                   {"\u00A0"}
                   {"\u00A0"}
                 </motion.div>
-              ))}
-              <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[5vh]"></div>
+              ))} */}
+              {/* <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[5vh]"></div>
               <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[10vh]"></div>
               <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[15vh]"></div>
               <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[20vh]"></div>
               <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[25vh]"></div>
-              <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[vh]"></div>
+              <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[vh]"></div> */}
             </div>
-            <div className="justify-self-center -mt-16 sm:-mt-44">
-              <img src={footer} alt="" width={150} />
+            <div className="justify-self-center my-10 sm:my-8">
+              <img src='/public/Open Innovation.jpg' alt="" width={180} />
             </div>
             <div className="px-3 bg-[#f6019d] md:text-5xl text-4xl text-center font-[vcr-osd] md:h-[13vh] flex items-center justify-center">
             OPEN INNOVATION
@@ -123,8 +123,8 @@ const Tracks = () => {
             className="border-solid border-2 border-[#f6019d] grid w-[40vh] sm:w-[50vh] justify-self-center"
             onMouseEnter={handleHover2}
             onMouseLeave={handleHoverExit2}>
-            <div className="flex overflow-hidden relative">
-              {[...Array(50)].map((_, i) => (
+            <div className="flex overflow-hidden">
+              {/* {[...Array(50)].map((_, i) => (
                 <motion.div
                 key={i}
                 className="border-solid mx-1 sm:mx-3 h-[15vh] sm:h-[30vh] border-r-[1px] border-[#f6019d] text-[#2C1E66]"
@@ -145,10 +145,10 @@ const Tracks = () => {
               <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[15vh]"></div>
               <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[20vh]"></div>
               <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[25vh]"></div>
-              <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[vh]"></div>
+              <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[vh]"></div> */}
             </div>
-            <div className="justify-self-center -mt-16 sm:-mt-44">
-              <img src={footer} alt="" width={150} />
+            <div className="justify-self-center my-10 sm:my-8">
+              <img src='/public/AR-VR.jpg' alt="" width={180} />
             </div>
             <div className="px-3 bg-[#f6019d] text-5xl text-center font-[vcr-osd] md:h-[13vh] flex items-center justify-center">
             AR/VR
@@ -167,8 +167,8 @@ const Tracks = () => {
             className="border-solid border-2 border-[#f6019d] grid w-[40vh] sm:w-[50vh] justify-self-center"
             onMouseEnter={handleHover3}
             onMouseLeave={handleHoverExit3}>
-            <div className="flex overflow-hidden relative">
-              {[...Array(50)].map((_, i) => (
+            <div className="flex overflow-hidden">
+              {/* {[...Array(50)].map((_, i) => (
                 <motion.div
                 key={i}
                 className="border-solid mx-1 sm:mx-3 h-[15vh] sm:h-[30vh] border-r-[1px] border-[#f6019d] text-[#2C1E66]"
@@ -189,10 +189,10 @@ const Tracks = () => {
               <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[15vh]"></div>
               <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[20vh]"></div>
               <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[25vh]"></div>
-              <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[vh]"></div>
+              <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[vh]"></div> */}
             </div>
-            <div className="justify-self-center -mt-16 sm:-mt-44">
-              <img src={footer} alt="" width={150} />
+            <div className="justify-self-center my-10 sm:my-8">
+              <img src='/public/Web3.jpg' alt="" width={180} />
             </div>
             <div className="px-3 bg-[#f6019d] text-5xl text-center font-[vcr-osd] md:h-[13vh] flex items-center justify-center">
             WEB3
@@ -211,8 +211,8 @@ const Tracks = () => {
             className="border-solid border-2 border-[#f6019d] grid w-[40vh] sm:w-[50vh] justify-self-center"
             onMouseEnter={handleHover4}
             onMouseLeave={handleHoverExit4}>
-            <div className="flex overflow-hidden relative">
-              {[...Array(50)].map((_, i) => (
+            <div className="flex overflow-hidden">
+              {/* {[...Array(50)].map((_, i) => (
                 <motion.div
                 key={i}
                 className="border-solid mx-1 sm:mx-3 h-[15vh] sm:h-[30vh] border-r-[1px] border-[#f6019d] text-[#2C1E66]"
@@ -233,10 +233,10 @@ const Tracks = () => {
               <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[15vh]"></div>
               <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[20vh]"></div>
               <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[25vh]"></div>
-              <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[vh]"></div>
+              <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[vh]"></div> */}
             </div>
-            <div className="justify-self-center -mt-16 sm:-mt-44">
-              <img src={footer} alt="" width={150} />
+            <div className="justify-self-center my-10 sm:my-8">
+              <img src='/public/Edtech.jpg' alt="" width={180} />
             </div>
             <div className="px-3 bg-[#f6019d] text-5xl text-center font-[vcr-osd] md:h-[13vh] flex items-center justify-center">
             EDTECH
@@ -255,8 +255,8 @@ const Tracks = () => {
             className="border-solid border-2 border-[#f6019d] grid w-[40vh] sm:w-[50vh] justify-self-center"
             onMouseEnter={handleHover5}
             onMouseLeave={handleHoverExit5}>
-            <div className="flex overflow-hidden relative">
-              {[...Array(50)].map((_, i) => (
+            <div className="flex overflow-hidden">
+              {/* {[...Array(50)].map((_, i) => (
                 <motion.div
                 key={i}
                 className="border-solid mx-1 sm:mx-3 h-[15vh] sm:h-[30vh] border-r-[1px] border-[#f6019d] text-[#2C1E66]"
@@ -277,10 +277,10 @@ const Tracks = () => {
               <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[15vh]"></div>
               <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[20vh]"></div>
               <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[25vh]"></div>
-              <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[vh]"></div>
+              <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[vh]"></div> */}
             </div>
-            <div className="justify-self-center -mt-16 sm:-mt-44">
-              <img src={footer} alt="" width={150} />
+            <div className="justify-self-center my-10 sm:my-8">
+              <img src='/public/Health Tech.jpg' alt="" width={180} />
             </div>
             <div className="px-3 bg-[#f6019d] text-5xl text-center font-[vcr-osd] md:h-[13vh] flex items-center justify-center">
             HEALTH
@@ -299,8 +299,8 @@ const Tracks = () => {
             className="border-solid border-2 border-[#f6019d] grid w-[40vh] sm:w-[50vh] justify-self-center"
             onMouseEnter={handleHover6}
             onMouseLeave={handleHoverExit6}>
-            <div className="flex overflow-hidden relative">
-              {[...Array(50)].map((_, i) => (
+            <div className="flex overflow-hidden">
+              {/* {[...Array(50)].map((_, i) => (
                 <motion.div
                 key={i}
                 className="border-solid mx-1 sm:mx-3 h-[15vh] sm:h-[30vh] border-r-[1px] border-[#f6019d] text-[#2C1E66]"
@@ -315,16 +315,16 @@ const Tracks = () => {
                   {"\u00A0"}
                   {"\u00A0"}
                 </motion.div>
-              ))}
-              <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[5vh]"></div>
+              ))} */}
+              {/* <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[5vh]"></div>
               <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[10vh]"></div>
               <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[15vh]"></div>
               <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[20vh]"></div>
               <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[25vh]"></div>
-              <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[vh]"></div>
+              <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[vh]"></div> */}
             </div>
-            <div className="justify-self-center -mt-16 sm:-mt-44">
-              <img src={footer} alt="" width={150} />
+            <div className="justify-self-center my-10 sm:my-8">
+              <img src='/public/Fintech.jpg' alt="" width={180} />
             </div>
             <div className="px-3 bg-[#f6019d] text-5xl text-center font-[vcr-osd] md:h-[13vh] flex items-center justify-center">
             FINTECH

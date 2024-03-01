@@ -21,11 +21,12 @@ function Home() {
         animate={{ x: 100 }}
         transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
       >
-        / Exciting Challenges / Register Now / Unforgettable Experience /
+        {/* / Exciting Challenges / Register Now / Unforgettable Experience / */}
+       / Ideate PPT  Submission on Devfolio /  Ideate PPT  Submission on Devfolio /
       </motion.div>
           <div className="flex flex-col justify-center items-center text-lg">
             <p className="mb-5">
-              Registeration is now open for this thrilling 36 hour coding extravaganza !
+              Idea Submission Deadline - 7th March 2024 
             </p>
           </div>
         </section>
