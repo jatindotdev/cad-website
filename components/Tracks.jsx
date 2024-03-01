@@ -1,6 +1,11 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import footer from "/favicon.png";
+import arvr from '../assets/images/AR-VR.jpg'
+import edtech from '../assets/images/Edtech.jpg'
+import fintech from '../assets/images/Fintech.jpg'
+import health from '../assets/images/Health Tech.jpg'
+import open from '../assets/images/Open Innovation.jpg'
+import web3 from '../assets/images/Web3.jpg'
 
 const Tracks = () => {
   const lineVariants = {
@@ -104,7 +109,7 @@ const Tracks = () => {
               <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[vh]"></div> */}
             </div>
             <div className="justify-self-center my-10 sm:my-8">
-              <img src='/Open Innovation.jpg' alt="" width={180} />
+              <img src={open} alt="" width={180} />
             </div>
             <div className="px-3 bg-[#f6019d] md:text-5xl text-4xl text-center font-[vcr-osd] md:h-[13vh] flex items-center justify-center">
             OPEN INNOVATION
@@ -148,7 +153,7 @@ const Tracks = () => {
               <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[vh]"></div> */}
             </div>
             <div className="justify-self-center my-10 sm:my-8">
-              <img src='/AR-VR.jpg' alt="" width={180} />
+              <img src={arvr} alt="" width={180} />
             </div>
             <div className="px-3 bg-[#f6019d] text-5xl text-center font-[vcr-osd] md:h-[13vh] flex items-center justify-center">
             AR/VR
@@ -192,7 +197,7 @@ const Tracks = () => {
               <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[vh]"></div> */}
             </div>
             <div className="justify-self-center my-10 sm:my-8">
-              <img src='/Web3.jpg' alt="" width={180} />
+              <img src={web3} alt="" width={180} />
             </div>
             <div className="px-3 bg-[#f6019d] text-5xl text-center font-[vcr-osd] md:h-[13vh] flex items-center justify-center">
             WEB3
@@ -236,7 +241,7 @@ const Tracks = () => {
               <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[vh]"></div> */}
             </div>
             <div className="justify-self-center my-10 sm:my-8">
-              <img src='/Edtech.jpg' alt="" width={180} />
+              <img src={edtech} alt="" width={180} />
             </div>
             <div className="px-3 bg-[#f6019d] text-5xl text-center font-[vcr-osd] md:h-[13vh] flex items-center justify-center">
             EDTECH
@@ -280,7 +285,7 @@ const Tracks = () => {
               <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[vh]"></div> */}
             </div>
             <div className="justify-self-center my-10 sm:my-8">
-              <img src='/Health Tech.jpg' alt="" width={180} />
+              <img src={health} alt="" width={180} />
             </div>
             <div className="px-3 bg-[#f6019d] text-5xl text-center font-[vcr-osd] md:h-[13vh] flex items-center justify-center">
             HEALTH
@@ -324,7 +329,7 @@ const Tracks = () => {
               <div className="absolute border-solid w-[100%] border-b-[1px] border-[#f6019d] top-[vh]"></div> */}
             </div>
             <div className="justify-self-center my-10 sm:my-8">
-              <img src='/Fintech.jpg' alt="" width={180} />
+              <img src={fintech} alt="" width={180} />
             </div>
             <div className="px-3 bg-[#f6019d] text-5xl text-center font-[vcr-osd] md:h-[13vh] flex items-center justify-center">
             FINTECH
