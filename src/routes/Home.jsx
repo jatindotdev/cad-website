@@ -22,11 +22,11 @@ function Home() {
         transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
       >
         {/* / Exciting Challenges / Register Now / Unforgettable Experience / */}
-       / Ideate PPT  Submission on Devfolio /  Ideate PPT  Submission on Devfolio /
+       / 1st Phase Review Results Out /  1st Phase Review Results Out /
       </motion.div>
           <div className="flex flex-col justify-center items-center text-lg">
             <p className="mb-5">
-              Idea Submission Deadline - 7th March 2024 
+              1st Phase Review Results are now out 
             </p>
           </div>
         </section>
