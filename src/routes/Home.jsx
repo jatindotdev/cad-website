@@ -3,6 +3,7 @@ import Tracks from "../../components/Tracks";
 import About from "../sections/About/About";
 import Faq from "../sections/FAQ/Faq";
 import Landing from "../sections/Landing/Landing";
+import MiniEvent from "../sections/MiniEvent/MiniEvent";
 import Timeline from "../sections/Timelines/Timeline";
 
 function Home() {
@@ -13,6 +14,10 @@ function Home() {
           <Landing />
         </section>
         <About />
+        <MiniEvent />
+        <div className="font-[Power] text-3xl sm:text-6xl my-8 sm:my-16 px-6 sm:px-12 text-center">
+          <p>Ready, set, code! 🚀</p>
+        </div>
         <section className="overflow-hidden font-[vcr-osd] flex flex-col px-12 text-center py-20 bg-[#E2319A]">
           <motion.div
             className="flex text-6xl whitespace-nowrap uppercase mb-10 font-bold"
